@@ -5,7 +5,7 @@ user_input = input('''Let's play a guess number game!
 
 Please input a integer number between 1 and 100, and I'll tell you if it's bigger or smaller. :''')
 while not user_input.isdigit():
-    user_input = input('Invaild input, please try again! :')
+    user_input = input('Invalid input, please try again! :')
     continue
 else:
     user_input = int(user_input)
@@ -22,7 +22,7 @@ while user_input != number:
             print('Congratulations! You are right, the number is', number)
             break
     else:
-        print('Ooops! The number you entered is not between 1-100, try again! :')
+        print('Oops! The number you entered is not between 1-100, try again! :')
         break
 else:
     print('Congratulations! You are right, the number is', number, '!')
