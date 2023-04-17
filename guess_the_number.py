@@ -38,4 +38,4 @@ while user_input != number:
         continue
 else:
     print('Congratulations! You are right, the number is', number, '!')
-    input('Press any key to exit.')
+    input('Press any key to exit. See you!')
